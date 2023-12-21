@@ -54,18 +54,7 @@ body {
 	background:url(../images/bg_top.gif) top repeat-x
 }
 
-/* Default styles for all devices */
-/* Your default CSS here */
 
-/* Media query for devices with a maximum width of 768 pixels (typical for tablets) */
-@media (max-width: 768px) {
-    /* Your CSS styles specific to tablets or smaller screens here */
-}
-
-/* Media query for devices with a maximum width of 480 pixels (typical for mobile phones) */
-@media (max-width: 480px) {
-    /* Your CSS styles specific to mobile phones here */
-}
 
 /* ============================= main layout ====================== */
 a {

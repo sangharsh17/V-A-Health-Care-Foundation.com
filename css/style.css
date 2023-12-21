@@ -17,64 +17,55 @@ mark, rp, rt, ruby, summary, time {
 	overflow:hidden
 }
 /* Global properties ======================================================== */
-/* Global Styles */
 body {
-    background: url(../images/bg.jpg) top center repeat;
-    border: 0;
-    font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
-    color: #575652;
-    line-height: 22px;
+	background:url(../images/bg.jpg) top center repeat;
+	border:0;
+	font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#575652;
+	line-height:22px
 }
-
 .ic, .ic a {
-    border: 0;
-    float: right;
-    background: #fff;
-    color: #f00;
-    width: 50%;
-    line-height: 10px;
-    font-size: 10px;
-    margin: -220% 0 0 0;
-    overflow: hidden;
-    padding: 0;
+	border:0;
+	float:right;
+	background:#fff;
+	color:#f00;
+	width:50%;
+	line-height:10px;
+	font-size:10px;
+	margin:-220% 0 0 0;
+	overflow:hidden;
+	padding:0
 }
-
 .css3 {
-    border-radius: 8px;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    box-shadow: 0 0 4px rgba(0, 0, 0, .4);
-    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .4);
-    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .4);
-    position: relative;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	box-shadow:0 0 4px rgba(0, 0, 0, .4);
+	-moz-box-shadow:0 0 4px rgba(0, 0, 0, .4);
+	-webkit-box-shadow:0 0 4px rgba(0, 0, 0, .4);
+	position:relative
 }
-
-/* Global Structure */
+/* Global Structure ============================================================= */
 .main {
-    margin: 0 auto;
-    width: 940px;
+	margin:0 auto;
+	width:940px
 }
-
 .body1 {
-    background: url(../images/bg_top.gif) top repeat-x;
+	background:url(../images/bg_top.gif) top repeat-x
 }
 
-/* Media Queries for Responsive Design */
-@media only screen and (max-width: 768px) {
-    /* Adjustments for mobile devices */
-    .main {
-        width: 100%;
-        padding: 0 10px; /* Optional padding for better mobile view */
-    }
+/* Default styles for all devices */
+/* Your default CSS here */
 
-    .ic, .ic a {
-        width: 100%; /* Make it full width for better mobile view */
-        margin: 0; /* Reset the margin for mobile view */
-    }
-
-    /* Add more adjustments as needed for smaller screens */
+/* Media query for devices with a maximum width of 768 pixels (typical for tablets) */
+@media (max-width: 768px) {
+    /* Your CSS styles specific to tablets or smaller screens here */
 }
 
+/* Media query for devices with a maximum width of 480 pixels (typical for mobile phones) */
+@media (max-width: 480px) {
+    /* Your CSS styles specific to mobile phones here */
+}
 
 /* ============================= main layout ====================== */
 a {
